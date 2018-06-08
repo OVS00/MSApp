@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<TextView
+    android:id="@+id/title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/app_name"
+    android:padding="16dp"
+    android:layout_gravity="center"/>
+
+
+   <RelativeLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:padding="80dp"
+       android:background="@color/colorAccent">
+       <Button
+           android:id="@+id/electro_view"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="electro"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentTop="true"/>
+       <Button
+           android:id="@+id/rock_view"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentBottom="true"
+           android:text="rock"/>
+       <Button
+           android:id="@+id/classical_view"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentRight="true"
+           android:layout_alignParentTop="true"
+           android:text="classical"/>
+       <Button
+           android:id="@+id/ethnic_view"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+           android:layout_alignParentRight="true"
+           android:text="ethnic"/>
+
+   </RelativeLayout>
+
+</LinearLayout>
