@@ -21,9 +21,16 @@ public class ElectroActivity extends AppCompatActivity {
 
         ArrayList<Song> songs = new ArrayList<>();
 
-        songs.add(new Song("tune1e", "artist1e"));
-        songs.add(new Song("tune2e", "artist2e"));
-        songs.add(new Song("tune3e", "artist3e"));
+        songs.add(new Song("tune1electro", "artist1electro"));
+        songs.add(new Song("tune2electro", "artist2electro"));
+        songs.add(new Song("tune3electro", "artist3electro"));
+        songs.add(new Song("tune4electro", "artist4electro"));
+        songs.add(new Song("tune5electro", "artist5electro"));
+        songs.add(new Song("tune6electro", "artist6electro"));
+        songs.add(new Song("tune7electro", "artist7electro"));
+        songs.add(new Song("tune8electro", "artist8electro"));
+        songs.add(new Song("tune9electro", "artist9electro"));
+        songs.add(new Song("tune10electro", "artist10electro"));
 
         SongAdapter adapter = new SongAdapter(this, songs);
         final ListView listView = (ListView) findViewById(R.id.list);

@@ -20,9 +20,16 @@ public class ClassicalActivity extends AppCompatActivity {
 
         ArrayList<Song> songs = new ArrayList<>();
 
-        songs.add(new Song("tune1c", "artist1c"));
-        songs.add(new Song("tune2c", "artist2c"));
-        songs.add(new Song("tune3c", "artist3c"));
+        songs.add(new Song("tune1classical", "artist1classical"));
+        songs.add(new Song("tune2classical", "artist2classical"));
+        songs.add(new Song("tune3classical", "artist3classical"));
+        songs.add(new Song("tune4classical", "artist4classical"));
+        songs.add(new Song("tune5classical", "artist5classical"));
+        songs.add(new Song("tune6classical", "artist6classical"));
+        songs.add(new Song("tune7classical", "artist7classical"));
+        songs.add(new Song("tune8classical", "artist8classical"));
+        songs.add(new Song("tune9classical", "artist9classical"));
+        songs.add(new Song("tune10classical", "artist10classical"));
 
         SongAdapter adapter = new SongAdapter(this, songs);
         final ListView listView = (ListView) findViewById(R.id.list);

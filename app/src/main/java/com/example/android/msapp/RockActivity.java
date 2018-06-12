@@ -20,9 +20,16 @@ public class RockActivity extends AppCompatActivity {
 
         ArrayList<Song> songs = new ArrayList<>();
 
-        songs.add(new Song("tune1r", "artist1r"));
-        songs.add(new Song("tune2r", "artist2r"));
-        songs.add(new Song("tune3r", "artist3r"));
+        songs.add(new Song("tune1rock", "artist1rock"));
+        songs.add(new Song("tune2rock", "artist2rock"));
+        songs.add(new Song("tune3rock", "artist3rock"));
+        songs.add(new Song("tune4rock", "artist4rock"));
+        songs.add(new Song("tune5rock", "artist5rock"));
+        songs.add(new Song("tune6rock", "artist6rock"));
+        songs.add(new Song("tune7rock", "artist7rock"));
+        songs.add(new Song("tune8rock", "artist8rock"));
+        songs.add(new Song("tune9rock", "artist9rock"));
+        songs.add(new Song("tune10rock", "artist10rock"));
 
         SongAdapter adapter = new SongAdapter(this, songs);
         final ListView listView = (ListView) findViewById(R.id.list);

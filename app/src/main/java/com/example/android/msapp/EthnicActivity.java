@@ -20,9 +20,16 @@ public class EthnicActivity extends AppCompatActivity {
 
         ArrayList<Song> songs = new ArrayList<>();
 
-        songs.add(new Song("tune1et", "artist1et"));
-        songs.add(new Song("tune2et", "artist2et"));
-        songs.add(new Song("tune3et", "artist3et"));
+        songs.add(new Song("tune1ethnic", "artist1ethnic"));
+        songs.add(new Song("tune2ethnic", "artist2ethnic"));
+        songs.add(new Song("tune3ethnic", "artist3ethnic"));
+        songs.add(new Song("tune4ethnic", "artist4ethnic"));
+        songs.add(new Song("tune5ethnic", "artist5ethnic"));
+        songs.add(new Song("tune6ethnic", "artist6ethnic"));
+        songs.add(new Song("tune7ethnic", "artist7ethnic"));
+        songs.add(new Song("tune8ethnic", "artist8ethnic"));
+        songs.add(new Song("tune9ethnic", "artist9ethnic"));
+        songs.add(new Song("tune10ethnic", "artist10ethnic"));
 
         SongAdapter adapter = new SongAdapter(this, songs);
         final ListView listView = (ListView) findViewById(R.id.list);
