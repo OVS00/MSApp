@@ -18,7 +18,9 @@ public class ElectroActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.song_list);
         Button backListButton = (Button) findViewById(R.id.back_list_button);
-
+        TextView currentActivityView = (TextView) findViewById(R.id.activity_name);
+        String activity = this.getClass().getSimpleName().replace("Activity"," songs");
+        currentActivityView.setText(activity);
         ArrayList<Song> songs = new ArrayList<>();
 
         songs.add(new Song("tune1electro", "artist1electro"));
