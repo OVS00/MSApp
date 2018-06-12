@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MSApp</string>
+    <string name="title">Choose category</string>
+    <string name="back_to_categories">\u2190 Back to categories</string>
+    <string name="back_to_list">\u2190 Back to list</string>
+    <string name="categories">\u2191 Categories</string>
 </resources>

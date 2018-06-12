@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         rock.setOnClickListener(new View.OnClickListener() {
-            // The code in this method will be executed when the electro View is clicked on.
+            // The code in this method will be executed when the rock View is clicked on.
             @Override
             public void onClick(View view) {
                 Intent rockIntent = new Intent(MainActivity.this, RockActivity.class);
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         classical.setOnClickListener(new View.OnClickListener() {
-            // The code in this method will be executed when the electro View is clicked on.
+            // The code in this method will be executed when the classical View is clicked on.
             @Override
             public void onClick(View view) {
                 Intent classicalIntent = new Intent(MainActivity.this, ClassicalActivity.class);
@@ -44,13 +44,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         ethnic.setOnClickListener(new View.OnClickListener() {
-            // The code in this method will be executed when the electro View is clicked on.
+            // The code in this method will be executed when the ethnic View is clicked on.
             @Override
             public void onClick(View view) {
                 Intent ethnicIntent = new Intent(MainActivity.this, EthnicActivity.class);
                 startActivity(ethnicIntent);
             }
         });
+
 
     }
 }

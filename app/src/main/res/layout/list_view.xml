@@ -14,11 +14,13 @@
         android:id="@+id/artist_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
         tools:text="artist"/>
     <TextView
         android:id="@+id/song_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
         tools:text="song"/>
 
 </LinearLayout>
